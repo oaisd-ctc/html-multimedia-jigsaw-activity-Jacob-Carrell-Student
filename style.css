@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    color: rgb(95, 186, 119)
+}
+
+.video {
+    border-radius: 10px;
+    border-color: rgb(95, 186, 119);
+    border-width: 500px;
+}
+
+.audio {
+    border-radius: 10px;
+    border-color: rgb(95, 186, 119);
+    border-width: 500px;
+}
+
+.svg {
+    display: block;
+    margin: auto;
+}

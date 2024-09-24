@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Multimedia Demonstration</title>
+
+</head>
+
+<body>
+
+    <h1>HTML Multimedia Demonstration</h1>
+
+    <h3>Video Element</h3>
+
+    <div class="video">
+
+    <video width="320" height="240" controls>
+        <source src="Raindrops_Videvo.mp4" type="video/mp4">
+    </video>
+
+    </div>
+
+    <h3>Audio Element</h3>
+
+    <div class="audio">
+        
+    <audio controls>
+        <source src="mixaund-feel.mp3" type="audio/mp3">
+    </audio>
+
+    </div>
+
+    <h3>Inline Frame Element</h3>
+
+    <iframe src="https://example.com/" height="400" width="800" name="Example Domain"></iframe>
+
+    <h3>Canvas Element</h3>
+
+    <canvas id=myCanvas width="200" height="100" style="background-color: grey;"></canvas>
+    <script>const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#0066A0";
+        ctx.fillRect(0, 0, 150, 75);</script>
+
+    <h3>SVG Element</h3>
+
+    <div class="svg">
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="#000000" stroke-width="3" fill="#FF0000"></circle>
+    </svg>
+
+    <br>
+
+    <svg>
+        <rect width="200" height="80" style="fill: #659a9c; stroke-width:3; stroke: #000000"></rect>
+    </svg>
+
+    <br>
+
+    <svg>
+        <ellipse cx="110" cy="60" rx="100" ry="50" style="fill:#73d998; stroke: #000000; stroke-width:3"></ellipse>
+    </svg>
+
+    <br>
+
+    <svg width="300" height="110">
+        <line x1="0" y1="0" x2="200" y2="80" style="stroke:grey;stroke-width:3"></line>
+    </svg>
+
+    <br>
+
+    <svg>
+        <polygon points="100,110 150,50 200,110 " style="fill: yellow; stroke: black; stroke-width: 3;"></polygon>
+    </svg>
+
+    </div>
+
+</body>
+
+</html>
